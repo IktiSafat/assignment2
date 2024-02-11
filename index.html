@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="conv.html">Conversion</a></li>
+      <li><a href="min.html">MINMAX</a></li>
+      <li><a href="tx.html">Manipulator</a></li>
+    </ul>
+    <div class="quote-container" id="quoteContainer">
+      <p id="quoteText"></p>
+      <div class="color-buttons">
+        <button class="color-box yellow" onclick="changeColor('yellow')">
+          Yellow
+        </button>
+        <button class="color-box red" onclick="changeColor('red')">Red</button>
+        <button class="color-box green" onclick="changeColor('green')">
+          Green
+        </button>
+        <button class="color-box blue" onclick="changeColor('blue')">
+          Blue
+        </button>
+      </div>
+      <button id="fontBtn" onclick="changeFont()">Change Font</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

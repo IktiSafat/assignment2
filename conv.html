@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weight Conversion</title>
+    <link rel="stylesheet" href="conv.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weight Conversion</h1>
+      <div class="input-container">
+        <label for="weight">Weight:</label>
+        <input
+          type="number"
+          id="weight"
+          name="weight"
+          placeholder="Enter weight..."
+        />
+      </div>
+
+      <div class="select-container">
+        <select id="conversionType">
+          <option value="kgToLb">Kilograms to Pounds</option>
+          <option value="lbToKg">Pounds to Kilograms</option>
+        </select>
+      </div>
+
+      <button onclick="convert()">Convert</button>
+
+      <p>Result: <span id="result"></span></p>
+    </div>
+
+    <script src="conv.js"></script>
+  </body>
+</html>

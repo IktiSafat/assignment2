@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Series Analyzer</title>
+    <link rel="stylesheet" href="min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Number Series Analyzer</h1>
+      <form id="numberForm">
+        <label for="numberSeries"
+          >Enter a series of numbers (separated by comma):</label
+        ><br />
+        <input
+          type="text"
+          id="numberSeries"
+          name="numberSeries"
+          required
+        /><br /><br />
+        <button type="submit">Analyze</button>
+      </form>
+
+      <div class="result-container">
+        <h2>Results:</h2>
+        <p>Maximum: <span id="maxResult"></span></p>
+        <p>Minimum: <span id="minResult"></span></p>
+        <p>Sum: <span id="sumResult"></span></p>
+        <p>Average: <span id="averageResult"></span></p>
+        <p>Reverse Order: <span id="reverseResult"></span></p>
+      </div>
+    </div>
+
+    <script src="min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.quote-container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Transparent background to see the gradient */
+}
+
+.color-buttons {
+  margin-top: 20px;
+}
+
+.color-box {
+  padding: 5px 15px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.color-box:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Transparent background color on hover */
+}
+
+.yellow {
+  background-color: #f4d03f;
+  color: #fff;
+}
+
+.red {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.green {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.blue {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#fontBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #2980b9;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#fontBtn:hover {
+  background-color: #1e6091;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent black background */
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Darker transparent black background on hover */
+}
